@@ -47,7 +47,7 @@ weight = 1
 [[Languages.en.menu.main]]
 weight = 3
 name = "Puzzle ITC"
-url = "https://www.puzzle.ch"
+url = "https://www.puzzle-itc.de"
 
 [markup]
   [markup.goldmark]
@@ -88,11 +88,6 @@ footer_about_disable = true
 name = "GitHub"
 icon = "fab fa-github"
 url = "https://github.com/puzzle/ansible-training"
-
-[[params.links.user]]
-name = "Twitter"
-icon = "fab fa-twitter"
-url = "https://twitter.com/puzzleitc"
 
 [[params.links.user]]
 name = "LinkedIn"

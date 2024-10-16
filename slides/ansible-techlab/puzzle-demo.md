@@ -1,6 +1,6 @@
 # Ansible Techlab
 
-### ansible.puzzle.ch
+### train.puzzle-itc.de
 
 #### Lukas Grimm
 
@@ -17,6 +17,10 @@
 <!-- #### Mark Pröhl -->
 
 <!-- #### Florian Studer -->
+
+#### Lukas Kallies
+
+#### Sebastian Preisner
 
 <!-- .slide: class="master-cover" -->
 
@@ -58,6 +62,7 @@
 </div>
 
 -->
+
 <!--
 <div class="people" style="color: black;">
 <div>
@@ -69,7 +74,8 @@
 
   preisig@puzzle.ch
 </div>
--->
+//-->
+
 <!--
 <div>
     <div class="img" style="background-image: url(https://www.puzzle.ch/wp-content/uploads/2018/08/Test-Remy-Keil-Filter_2Option-400x300.jpg)" />
@@ -120,6 +126,7 @@ proehl@puzzle-itc.de
 </div>
 
 -->
+
 <!--
 <div>
 <div class="img" style="background-image: url(https://www.puzzle.ch/wp-content/uploads/2021/06/Florian_Studer_wp-400x300.jpg)" />
@@ -130,6 +137,18 @@ System Engineer
 
 studer@puzzle.ch
 
+</div>
+//-->
+
+<div class="people" style="color: black;">
+<div>
+    <div class="img" style="background-image: url(https://www.puzzle.ch/wp-content/uploads/2019/05/Preisig_Lukas-400x300.jpg)" />
+    </div>
+
+  ### Lukas Kallies
+  System Engineer
+
+  kallies@puzzle-itc.de
 </div>
 
 -->
