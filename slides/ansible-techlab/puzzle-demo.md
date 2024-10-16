@@ -1,6 +1,6 @@
 # Ansible Techlab
 
-### ansible.puzzle.ch
+### train.puzzle-itc.de
 
 <!-- #### Lukas Grimm -->
 
@@ -164,6 +164,17 @@ studer@puzzle.ch
   preisner@puzzle-itc.de
 </div>
 //-->
+<div class="people" style="color: black;">
+<div>
+    <div class="img" style="background-image: url(https://www.puzzle.ch/wp-content/uploads/2019/05/Preisig_Lukas-400x300.jpg)" />
+    </div>
+
+  ### Lukas Kallies
+  System Engineer
+
+  kallies@puzzle-itc.de
+</div>
+>>>>>>> 4ac0464 (full qualified image name, Puzzle ITC Group)
 
 <!-- .slide: class="master-top-head" -->
 
