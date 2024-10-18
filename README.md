@@ -1,6 +1,6 @@
 # Puzzle ITC Ansible Training
 
-In the guided hands-on training, participants are able to learn the basics of [Ansible](https://www.ansible.com/)..
+In the guided hands-on training, participants are able to learn the basics of [Ansible](https://www.ansible.com/).
 
 For more see [Puzzle Ansible Training online](https://ansible.puzzle.ch/).
 
