@@ -10,11 +10,11 @@ There is also extensive documentation of Gitea available at [https://docs.gitea.
 
 ### Task 1
 
-Login to gitea at `https://<yourname>-controller.workshop.puzzle.ch:4000` and create your own repository `techlab`.
+Login to gitea at `https://control0.example.com:4000` and create your own repository `techlab`.
 
 {{% details title="Solution Task 1" %}}
 
-* Navigate your webbrowser to `https://<yourname>-controller.workshop.puzzle.ch:4000` . Be sure to use port 4000.
+* Navigate your webbrowser to `https://control0.example.com:4000` . Be sure to use port 4000.
 * In the upper right corner click on `Sign In`.
 * Enter your username and password provided by the teacher. Then click the green button `Sign In`.
 * Klick on the `+` sign to the right of `Repostories`.
@@ -43,7 +43,7 @@ git config --global init.defaultBranch main
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git init
-git remote add origin gitea@<yourname>-controller.workshop.puzzle.ch:ansible/techlab.git
+git remote add origin gitea@control0.example.com:ansible/techlab.git
 echo "This is my Ansible Techlab repo" > README.md
 git add README.md
 git commit -m "first commit"
@@ -58,7 +58,7 @@ git commit -m "first commit"
 * In the Gitea GUI, navigate to the `Settings` of the user `ansible`
 * On the right side chose the `SSH / GPG Keys` tab
 * Click the `Add Key` button
-* Set `ansible@<yourname>-controller` as `Key Name` and paste the content of your public key in the `Content` field of the GUI
+* Set `ansible@control0.example.com` as `Key Name` and paste the content of your public key in the `Content` field of the GUI
 * Click `Add Key`
 
 {{% details title="Solution Task 3" %}}
