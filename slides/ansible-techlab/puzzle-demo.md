@@ -201,6 +201,7 @@ studer@puzzle.ch
 - Ad hoc commands
 - Plays
 - Roles
+- Collections
 - Ansible-Vault
 
 <!-- .slide: class="master-agenda" -->
@@ -271,22 +272,24 @@ studer@puzzle.ch
 
 ## Ansible @ Puzzle
 
-- «Wartungsfenster» script
-- automation cluster setup
-- cloud-migration
 - Techlab setup
+- Testinfrastruktur
+    * Virtualisierung
+    * Kubernetes
+    * LDAP, IdM
+    * SSO
+    * Ansible-Plattform
+- BigBlueButton
+- Backup-System
 </div>
 <div>
 
-![ansible-logo](ansible-techlab/img/ansible-logo.png)
+<img src="ansible-techlab/img/ansible-logo.png" alt="ansible-logo" width="450"/>
 </div>
 
 <!-- .slide: class="master-left-right"> -->
 
 Note:
-Automatisierung unserer monatlichen Updates/Restart
-SLOG Cluster Automatisierung
-Migration von RZ in die Cloud mit Wechsel von Puppet auf Ansible
 Eure Lab-VMs werden vollautomatisch mit Ansible deployed und provisioniert
 
 ***
@@ -297,7 +300,7 @@ Eure Lab-VMs werden vollautomatisch mit Ansible deployed und provisioniert
 - 1966 Ursula K.Le Guin «Rocannon's World»
 → instant communication system
 - 2012 Michael DeHaan (Cobbler, Puppet)
-- 2015 RedHat acquires Ansible Inc.
+- 2015 Red Hat acquires Ansible Inc.
 - 2019 Ansible 2.9
 - 2020-08-13 Ansible-Base 2.10
 - 2021-02-18 Ansible 3.0
@@ -380,8 +383,8 @@ Note:
 <!-- .slide: class="master-content" > -->
 
 Note:
-Zentraler Control-node erleichtert das auswerten von Logs im Team
-`pull` (Puppet way) vs `push` (ansible way) --> push braucht weder daemon noch sonst was
+Zentraler Control-node erleichtert das Auswerten von Logs im Team
+`pull` (Puppet way) vs `push` (ansible way) --> push braucht weder Daemon noch sonst was
 
 ***
 
@@ -392,7 +395,7 @@ Zentraler Control-node erleichtert das auswerten von Logs im Team
   - Nice to have: AWX / AAP / CI/CD-Pipeline
 - Client
   - SSH, python
-
+<!--TODO: Execution Environments-->
 
 <!-- .slide: class="master-content" > -->
 
@@ -440,8 +443,8 @@ Zentraler Control-node erleichtert das auswerten von Logs im Team
 ## Why cows?
 
 - Programm "cowsay"
-- Pas default configuration
-- → Ansibull → The Bullhorn, ansibullbot
+- Pass default configuration
+- → Antsibull → The Bullhorn
 - Still can be enabled:
 
 `$ ANSIBLE_NOCOWS=0 ansible-playbook plays/site.yml`
@@ -468,6 +471,7 @@ What do we use on cmdline?
 - `ansible-inventory`
 - `ansible-lint` (syntax check)
 - `ansible-pull`
+- `ansible-navigator`
 <!-- .slide: class="master-content" > -->
 
 ***
@@ -572,7 +576,7 @@ provisioning: local
 
 ## Tooling
 
-- Linux: Help yourself!
+- Linux: Choose your way!
 - Windows:
   - VS Code + Git for Windows
   - WSL
@@ -582,7 +586,7 @@ provisioning: local
 ***
 ## Lab Environment
 
-- Linux: Help yourself!
+- Linux: Choose your way!
 - Theia-IDE: Short Introduction
 
 <!-- .slide: class="master-content" > -->
@@ -606,6 +610,7 @@ provisioning: local
   `ansible-doc <module>`
 
   `ansible-doc -s <module>`
+<!--TODO ansible-navigator doc-->
 
 <!-- .slide: class="master-content"> -->
 ***
@@ -1982,6 +1987,7 @@ Use collection in playbook:
         option: bliblub
 ```
 OR:
+
 ```yaml
 ---
 - hosts: puzzle_nodes
