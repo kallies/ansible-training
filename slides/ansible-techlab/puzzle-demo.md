@@ -2,7 +2,7 @@
 
 ### train.puzzle-itc.de
 
-#### Lukas Grimm
+<!-- #### Lukas Grimm -->
 
 <!-- #### Dominik Meisser -->
 
@@ -42,12 +42,14 @@
 
 -->
 
+<!--
 ![](https://www.puzzle.ch/img/2024/06/Grimm_Lukas.jpg?w=300&h=300&fit=crop&fm=webp&q=90&sharp=4&s=d42398d9832aa48066cb50daa8a895d6)
 
   ### Lukas Grimm
   Lead System Architect
 
   grimm@puzzle.ch
+//-->
 
 <!--
 <div class="people">
@@ -60,7 +62,6 @@
 
   meisser@puzzle.ch
 </div>
-
 -->
 
 <!--
@@ -111,8 +112,9 @@
 
   kobras@puzzle-itc.de
 </div>
+-->
 
-
+<!--
 <div class="people">
 <div>
 <div class="img" style="background-image: url(https://www.puzzle.ch/wp-content/uploads/2019/06/Proehl-Mark-400x300.jpg)" />
@@ -124,7 +126,6 @@ Principal Architect
 proehl@puzzle-itc.de
 
 </div>
-
 -->
 
 <!--
@@ -142,22 +143,32 @@ studer@puzzle.ch
 
 <div class="people" style="color: black;">
 <div>
-    <div class="img" style="background-image: url(https://www.puzzle.ch/wp-content/uploads/2019/05/Preisig_Lukas-400x300.jpg)" />
+    <div class="img" style="background-image: url(https://www.puzzle.ch/img/2024/06/LukasKallies.jpg?w=450&h=450&fit=crop&fm=webp&q=90&sharp=4&blur=0&s=1cd2fb9588a769be13943ff79f924484)" />
     </div>
 
   ### Lukas Kallies
-  System Engineer
+  Solution Architect
 
   kallies@puzzle-itc.de
 </div>
 
--->
+<div class="people" style="color: black;">
+<div>
+    <div class="img" style="background-image: url(https://www.puzzle.ch/img/2024/06/Preisner_Sebastian.jpg?w=450&h=450&fit=crop&fm=webp&q=90&sharp=4&blur=0&s=6d479e53afe012ad2ae82b32b3f4ee8b)" />
+    </div>
+
+  ### Sebastian Preisner
+  System Engineer
+
+  preisner@puzzle-itc.de
+</div>
+
 <!-- .slide: class="master-top-head" -->
 
 ***
 ## Alle Puzzler
 
-![](https://www.puzzle.ch/img/2024/06/2024_Gruppenfoto_Puzzle-16x9-1000px-Breit.jpg?w=1000&h=561&fit=crop&fm=webp&q=90&sharp=4&s=5ec79746d78173920f663ca911d9ce86)"
+![](https://www.puzzle.ch/img/2024/06/2024_Gruppenfoto_Puzzle-16x9-1000px-Breit.jpg?w=1000&h=561&fit=crop&fm=webp&q=90&sharp=4&s=5ec79746d78173920f663ca911d9ce86)
 
   ### Members
   https://www.puzzle.ch/de/team
