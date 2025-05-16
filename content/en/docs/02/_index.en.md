@@ -74,5 +74,5 @@ ls -lahr /usr/share/doc/ | grep jinja2
 
 ### All done?
 
-* [Red Hat Ansible Blog](https://www.ansible.com/blog)
+* [Red Hat Automation Blog](https://www.redhat.com/en/blog/channel/management-and-automation)
 * [Red Hat Ansible YouTube](https://www.youtube.com/c/AnsibleAutomation/videos)
