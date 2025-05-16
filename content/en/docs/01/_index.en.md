@@ -280,7 +280,7 @@ ansible -i hosts all  --list-hosts
 
 ### All done?
 
-* Have a look at [The Bullhorn newsletter](https://github.com/ansible/community/wiki/News#the-bullhorn)
+* Have a look at [The Bullhorn newsletter](https://forum.ansible.com/c/news/bullhorn/17)
 * See what inspired the creators of Ansible: [Rocannon's World](https://www.youtube.com/watch?v=X8F3r4_EkW8)
 * Ansible [Configuration File](https://docs.ansible.com/ansible/latest/installation_guide/intro_configuration.html)
 * Easter egg: [Cowsay not found!](https://docs.ansible.com/ansible/latest/notfound)
