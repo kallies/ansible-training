@@ -203,7 +203,7 @@ container_image: default-ee
 process_isolation_executable: podman
 process_isolation: true
 
-$ cat /home/ansible/.ssh/id_rsa > env/ssh_key
+$ cat /home/ansible/.ssh/id_ed25519 > env/ssh_key
 
 $ head env/ssh_key 
 -----BEGIN OPENSSH PRIVATE KEY-----
