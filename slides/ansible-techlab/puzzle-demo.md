@@ -2788,6 +2788,6 @@ When writing Ansible content in a team:
 ----
 # Merci!
 ### Mehr Informationen zu Puzzle:
-### www.puzzle.ch
+### www.puzzle-itc.de
 
 <!-- .slide: class="master-thanks"> -->
