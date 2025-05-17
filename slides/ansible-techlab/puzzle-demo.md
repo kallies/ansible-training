@@ -2349,6 +2349,7 @@ Some configs from `ansible.cfg` not taken!
 - Jenkins
 - Gitlab
 - Github
+- semaphore UI
 - ...
 
 <!-- .slide: class="master-content" > -->
@@ -2770,7 +2771,7 @@ When writing Ansible content in a team:
 -  https://www.ansible.com/blog
 -  https://www.meetup.com/Ansible-Bern
 -  https://ansible.puzzle.ch/ (more content to come...)
--  https://www.puzzle.ch/de/blog/categories/technologien/ansible
+-  https://www.puzzle.ch/de/blog/
 -  → Feedback
 
 <!-- .slide: class="master-content" > -->
@@ -2778,6 +2779,6 @@ When writing Ansible content in a team:
 ----
 # Merci!
 ### Mehr Informationen zu Puzzle:
-### www.puzzle.ch
+### www.puzzle-itc.de
 
 <!-- .slide: class="master-thanks"> -->
